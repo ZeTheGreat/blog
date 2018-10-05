@@ -1,0 +1,90 @@
+#home {
+    width: auto;
+    background: rgb(228, 228, 228);
+    height: 50em;
+    z-index: 1000;
+}
+
+.home__box {
+    align-self: center;
+    margin-left: 10%;
+    margin-top: 5.5em;
+    position: absolute;
+    width: 80%;
+    height: 38em;
+}
+
+.home_ {
+    text-align: center;
+    position: absolute;
+    margin-top: 2.5em;
+    height: 30em;
+    width: 15%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.397);
+}
+
+@media only screen and (max-width: 55.3125em) {
+    .home_ {
+        display: none;
+    }
+}
+
+.home_ a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+}
+
+._hoje {
+    margin-left: 80%;
+    border-radius: 5px;
+    background-color: rgb(19, 0, 102)
+}
+
+._dica {
+    margin-left: 5%;
+    border-radius: 5px;
+    background-color: rgb(19, 0, 102)
+}
+
+.content_ {
+    margin-left: 5%;
+    height: 90%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px
+}
+
+.home__mid {
+    align-self: center;
+    align-items: center;
+    display: grid;
+    margin-left: 22.5%;
+    margin-top: 2.5em;
+    position: absolute;
+    width: 54.5%;
+    height: 30em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.397);
+    background-color: rgb(228, 156, 0)
+}
+
+.Bem-vindo {
+    width: 100%;
+    height: 10em;
+    background-color: rgb(255, 255, 255)
+}
+
+.list_ {
+    width: 100%;
+    height: 10em;
+    background-color: rgba(230, 196, 3, 0.74);
+    border: solid rgba(133, 133, 133, 0.438) 0.5em;
+    border-radius: 5px;
+}
+
+.home__btn {
+    margin-left: 70%;
+    width: 30%;
+    height: 3em;
+    background-color: rgba(0, 0, 0, 0.315)
+}

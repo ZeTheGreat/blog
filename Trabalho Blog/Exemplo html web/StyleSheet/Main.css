@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-y: scroll
+}
+
+body {
+    font-size: 100%;
+    perspective: 1px;
+    overflow-x: hidden;
+}
+
+
+/*HEADER-HEADER-HHEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER-HEADER*/
+
+
+/*Corpo*/
+
+.cabecalho {
+    background: #414141;
+    color: rgb(255, 198, 40);
+    padding: 1em 0
+}
+
+@media only screen and (min-width: 55.3125em) {
+    .cabecalho {
+        padding: 1.75rem 0 0 0;
+        position: relative;
+        z-index: 200
+    }
+}
+
+@media only screen and (min-width: 72.5rem) {
+    .cabecalho {
+        padding: 1.75rem 0 0 0
+    }
+}
+
+.largura-site {
+    max-width: 72.5rem;
+    padding: 0 1em
+}
+
+@media only screen and (min-width: 72.5rem) {
+    .largura-site {
+        padding: 0
+    }
+}
+
+.ma {
+    margin: 0 auto
+}
+
+.cabecalho_grid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+
+/*IMG logo*/
+
+.cabecalho_logo {
+    margin-top: -3.9em;
+    display: block;
+    width: 15%;
+    height: 3em;
+    text-decoration: none;
+    background-size: contain
+}
+
+@media only screen and (min-width: 55.3125em) {
+    .cabecalho_logo {
+        width: 10%
+    }
+}
+
+
+/*Menu*/
+
+.menu {
+    width: 70%;
+    text-align: center;
+    position: relative
+}
+
+@media only screen and (min-width: 55.3125em) {
+    .menu {
+        width: 80%
+    }
+}
+
+.menu__trigger {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer
+}
+
+.menu__trigger:hover {
+    opacity: 0.7
+}
+
+@media only screen and (min-width: 55.3125em) {
+    .menu__trigger {
+        display: none
+    }
+}
+
+.menu__ul {
+    display: none;
+    position: absolute;
+    z-index: 201;
+    background: #414141;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+@media only screen and (min-width: 55.3125em) {
+    .menu__ul {
+        display: block !important;
+        position: static;
+        transform: none
+    }
+}
+
+.menu__item {
+    display: block
+}
+
+@media only screen and (min-width: 55.3125em) {
+    .menu__item {
+        display: inline-block
+    }
+}
+
+.menu__link {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 198, 40);
+    font-size: 1em;
+    opacity: 1;
+    padding: 0.5em 1em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+}
+
+@media only screen and (min-width: 55.3125em) {
+    .menu__link {
+        padding: 1.05em .5em;
+        margin: 0 .3em;
+        border-bottom: 5px solid transparent;
+        opacity: 0.7
+    }
+    .menu__link:hover {
+        opacity: 1;
+    }
+    .menu__link.ativo {
+        border-bottom-color: #FFF;
+        opacity: 1;
+        font-weight: normal
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .menu__link {
+        font-size: 1.125em
+    }
+}
+
+.esconde {
+    display: none !important;
+    visibility: hidden
+}
+
+.esconde-vis {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+.esconde-vis.focavel:active,
+.esconde-vis.focavel:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto
+}
+
+
+/* BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY*/
+
+
+/* LINK TOP*/
+
+.link-topo {
+    font-size: 2em;
+    position: fixed;
+    top: 45%;
+    right: 0;
+    display: block;
+    background: rgba(161, 32, 144, 0.8);
+    color: rgb(0, 0, 0);
+    padding: 0.5em;
+    padding-right: 1em;
+    text-decoration: none;
+    border-radius: 0.2em 0 0 0.2em;
+    border: 0;
+    z-index: 200
+}
