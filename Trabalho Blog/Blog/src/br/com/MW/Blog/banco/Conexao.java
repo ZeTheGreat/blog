@@ -14,7 +14,7 @@ public class Conexao {
     private final String DRIVER = "com.mysql.cj.jdbc.Driver";
     private final String URL = "jdbc:mysql://localhost:3306/mwblog?useTimezone=true&serverTimezone=UTC&autoReconnect=true&useSSL=false";
     private final String USER = "root";
-    private final String PW = "tison123";
+    private final String PW = "";
 
     public Conexao() {
         PegarC();
