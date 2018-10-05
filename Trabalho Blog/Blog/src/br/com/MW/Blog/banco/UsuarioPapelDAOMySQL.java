@@ -15,7 +15,7 @@ public class UsuarioPapelDAOMySQL implements UsuarioPapelDAO {
         final String DRIVER = "com.mysql.cj.jdbc.Driver";
         final String URL = "jdbc:mysql://localhost:3306/mwblog?useTimezone=true&serverTimezone=UTC&autoReconnect=true&useSSL=false";
         final String USER = "root";
-        final String PW = "tison123";
+        final String PW = "";
 
         Class.forName(DRIVER);
         conexao = DriverManager.getConnection(URL, USER, PW);
