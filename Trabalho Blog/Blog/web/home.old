@@ -1,0 +1,13 @@
+  <% java.br.com.MW.Blog.Modelo.Usuario u = (java.br.com.MW.Blog.Modelo.Usuario)request.getAttribute("usuarioLogado"); %>
+    <%@include file = "menu.jsp" %>
+    <div class="conteudo">
+        <p>Olá usuuário <%=u.getNome()%></p>
+        <p>Seu e-mail cadastrado é: <%=u.getEmail()%></p>
+        <p>Sua senha cadastrada é: <%=u.getSenha()%></p>
+        <p>Você tem privilégios de: </p>
+        <ul>
+            <% for(java.br.com.MW.Blog.Modelo.Papel p : u.getPapeis()){ %>
+            <li><%= p.getDescricao().toString()%></li>
+            <%} %>
+        </ul>
+    </div>

@@ -1,0 +1,67 @@
+.container {
+    width: 82em;
+    height: 610px;
+    background: #6C7A89;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    display: none;
+    justify-content: center;
+    box-shadow: 1px 1px 20px 1px rgba(0 0 0 .5);
+
+}
+
+.input {
+    font-family: "Roboto Regular";
+    height: 25px;
+    width: 200px;
+    margin: 0 0 0 50px;
+    border: 1px black;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .1);
+    font-size: 15px;
+}
+
+#inputuser {
+    margin: 90px 0 15px 50px;
+}
+
+#entrar {
+    font-family: "Roboto Bold";
+    border: 0;
+    background-color:  #4169e1;
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin: 20px 0 0 50px;
+    cursor: pointer;
+
+}
+
+#indicator {
+    background-color: royalblue;
+    width: 300px;
+    height: 10px;
+}
+
+#cadastro {
+    font-family: "Roboto Regular";
+    width: 600px;
+    height: 30px;
+    text-decoration: none;
+    color: royalblue;
+    margin: 50px 0 0 110px;
+
+}
+
+#cadastro:hover {
+    color: darkblue;
+}
+
